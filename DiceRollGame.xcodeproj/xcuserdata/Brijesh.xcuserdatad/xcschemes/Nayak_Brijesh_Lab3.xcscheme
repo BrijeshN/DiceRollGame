@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "224FCDD71DBA847900753EC1"
-               BuildableName = "Nayak_Brijesh_Lab3.app"
-               BlueprintName = "Nayak_Brijesh_Lab3"
-               ReferencedContainer = "container:Nayak_Brijesh_Lab3.xcodeproj">
+               BuildableName = "DiceRollGame.app"
+               BlueprintName = "DiceRollGame"
+               ReferencedContainer = "container:DiceRollGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "224FCDF01DBA847A00753EC1"
-               BuildableName = "Nayak_Brijesh_Lab3Tests.xctest"
-               BlueprintName = "Nayak_Brijesh_Lab3Tests"
-               ReferencedContainer = "container:Nayak_Brijesh_Lab3.xcodeproj">
+               BuildableName = "DiceRollGameTests.xctest"
+               BlueprintName = "DiceRollGameTests"
+               ReferencedContainer = "container:DiceRollGame.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "224FCDFB1DBA847A00753EC1"
-               BuildableName = "Nayak_Brijesh_Lab3UITests.xctest"
-               BlueprintName = "Nayak_Brijesh_Lab3UITests"
-               ReferencedContainer = "container:Nayak_Brijesh_Lab3.xcodeproj">
+               BuildableName = "DiceRollGameUITests.xctest"
+               BlueprintName = "DiceRollGameUITests"
+               ReferencedContainer = "container:DiceRollGame.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "224FCDD71DBA847900753EC1"
-            BuildableName = "Nayak_Brijesh_Lab3.app"
-            BlueprintName = "Nayak_Brijesh_Lab3"
-            ReferencedContainer = "container:Nayak_Brijesh_Lab3.xcodeproj">
+            BuildableName = "DiceRollGame.app"
+            BlueprintName = "DiceRollGame"
+            ReferencedContainer = "container:DiceRollGame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "224FCDD71DBA847900753EC1"
-            BuildableName = "Nayak_Brijesh_Lab3.app"
-            BlueprintName = "Nayak_Brijesh_Lab3"
-            ReferencedContainer = "container:Nayak_Brijesh_Lab3.xcodeproj">
+            BuildableName = "DiceRollGame.app"
+            BlueprintName = "DiceRollGame"
+            ReferencedContainer = "container:DiceRollGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "224FCDD71DBA847900753EC1"
-            BuildableName = "Nayak_Brijesh_Lab3.app"
-            BlueprintName = "Nayak_Brijesh_Lab3"
-            ReferencedContainer = "container:Nayak_Brijesh_Lab3.xcodeproj">
+            BuildableName = "DiceRollGame.app"
+            BlueprintName = "DiceRollGame"
+            ReferencedContainer = "container:DiceRollGame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

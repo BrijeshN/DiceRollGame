@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		224FCDD81DBA847A00753EC1 /* Nayak_Brijesh_Lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nayak_Brijesh_Lab3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224FCDD81DBA847A00753EC1 /* DiceRollGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRollGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FCDDC1DBA847A00753EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		224FCDDE1DBA847A00753EC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		224FCDDF1DBA847A00753EC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,10 +48,10 @@
 		224FCDE71DBA847A00753EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		224FCDEA1DBA847A00753EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		224FCDEC1DBA847A00753EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		224FCDF11DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nayak_Brijesh_Lab3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224FCDF11DBA847A00753EC1 /* DiceRollGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FCDF51DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nayak_Brijesh_Lab3Tests.m; sourceTree = "<group>"; };
 		224FCDF71DBA847A00753EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		224FCDFC1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nayak_Brijesh_Lab3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224FCDFC1DBA847A00753EC1 /* DiceRollGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FCE001DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nayak_Brijesh_Lab3UITests.m; sourceTree = "<group>"; };
 		224FCE021DBA847A00753EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224FCE0E1DBA86D800753EC1 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
@@ -89,9 +89,9 @@
 		224FCDCF1DBA847900753EC1 = {
 			isa = PBXGroup;
 			children = (
-				224FCDDA1DBA847A00753EC1 /* Nayak_Brijesh_Lab3 */,
-				224FCDF41DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests */,
-				224FCDFF1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests */,
+				224FCDDA1DBA847A00753EC1 /* DiceRollGame */,
+				224FCDF41DBA847A00753EC1 /* DiceRollGameTests */,
+				224FCDFF1DBA847A00753EC1 /* DiceRollGameUITests */,
 				224FCDD91DBA847A00753EC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,14 +99,14 @@
 		224FCDD91DBA847A00753EC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				224FCDD81DBA847A00753EC1 /* Nayak_Brijesh_Lab3.app */,
-				224FCDF11DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests.xctest */,
-				224FCDFC1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests.xctest */,
+				224FCDD81DBA847A00753EC1 /* DiceRollGame.app */,
+				224FCDF11DBA847A00753EC1 /* DiceRollGameTests.xctest */,
+				224FCDFC1DBA847A00753EC1 /* DiceRollGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		224FCDDA1DBA847A00753EC1 /* Nayak_Brijesh_Lab3 */ = {
+		224FCDDA1DBA847A00753EC1 /* DiceRollGame */ = {
 			isa = PBXGroup;
 			children = (
 				224FCDDE1DBA847A00753EC1 /* AppDelegate.h */,
@@ -123,6 +123,7 @@
 				224FCE131DBA8C6700753EC1 /* DiceDataController.h */,
 				224FCE141DBA8C6700753EC1 /* DiceDataController.m */,
 			);
+			name = DiceRollGame;
 			path = Nayak_Brijesh_Lab3;
 			sourceTree = "<group>";
 		};
@@ -135,30 +136,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		224FCDF41DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests */ = {
+		224FCDF41DBA847A00753EC1 /* DiceRollGameTests */ = {
 			isa = PBXGroup;
 			children = (
 				224FCDF51DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests.m */,
 				224FCDF71DBA847A00753EC1 /* Info.plist */,
 			);
+			name = DiceRollGameTests;
 			path = Nayak_Brijesh_Lab3Tests;
 			sourceTree = "<group>";
 		};
-		224FCDFF1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests */ = {
+		224FCDFF1DBA847A00753EC1 /* DiceRollGameUITests */ = {
 			isa = PBXGroup;
 			children = (
 				224FCE001DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests.m */,
 				224FCE021DBA847A00753EC1 /* Info.plist */,
 			);
+			name = DiceRollGameUITests;
 			path = Nayak_Brijesh_Lab3UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		224FCDD71DBA847900753EC1 /* Nayak_Brijesh_Lab3 */ = {
+		224FCDD71DBA847900753EC1 /* DiceRollGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224FCE051DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "Nayak_Brijesh_Lab3" */;
+			buildConfigurationList = 224FCE051DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "DiceRollGame" */;
 			buildPhases = (
 				224FCDD41DBA847900753EC1 /* Sources */,
 				224FCDD51DBA847900753EC1 /* Frameworks */,
@@ -168,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = Nayak_Brijesh_Lab3;
+			name = DiceRollGame;
 			productName = Nayak_Brijesh_Lab3;
-			productReference = 224FCDD81DBA847A00753EC1 /* Nayak_Brijesh_Lab3.app */;
+			productReference = 224FCDD81DBA847A00753EC1 /* DiceRollGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		224FCDF01DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests */ = {
+		224FCDF01DBA847A00753EC1 /* DiceRollGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224FCE081DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "Nayak_Brijesh_Lab3Tests" */;
+			buildConfigurationList = 224FCE081DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "DiceRollGameTests" */;
 			buildPhases = (
 				224FCDED1DBA847A00753EC1 /* Sources */,
 				224FCDEE1DBA847A00753EC1 /* Frameworks */,
@@ -186,14 +189,14 @@
 			dependencies = (
 				224FCDF31DBA847A00753EC1 /* PBXTargetDependency */,
 			);
-			name = Nayak_Brijesh_Lab3Tests;
+			name = DiceRollGameTests;
 			productName = Nayak_Brijesh_Lab3Tests;
-			productReference = 224FCDF11DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests.xctest */;
+			productReference = 224FCDF11DBA847A00753EC1 /* DiceRollGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		224FCDFB1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests */ = {
+		224FCDFB1DBA847A00753EC1 /* DiceRollGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 224FCE0B1DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "Nayak_Brijesh_Lab3UITests" */;
+			buildConfigurationList = 224FCE0B1DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "DiceRollGameUITests" */;
 			buildPhases = (
 				224FCDF81DBA847A00753EC1 /* Sources */,
 				224FCDF91DBA847A00753EC1 /* Frameworks */,
@@ -204,9 +207,9 @@
 			dependencies = (
 				224FCDFE1DBA847A00753EC1 /* PBXTargetDependency */,
 			);
-			name = Nayak_Brijesh_Lab3UITests;
+			name = DiceRollGameUITests;
 			productName = Nayak_Brijesh_Lab3UITests;
-			productReference = 224FCDFC1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests.xctest */;
+			productReference = 224FCDFC1DBA847A00753EC1 /* DiceRollGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +223,6 @@
 				TargetAttributes = {
 					224FCDD71DBA847900753EC1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QDTEURJ5Z2;
 						ProvisioningStyle = Automatic;
 					};
 					224FCDF01DBA847A00753EC1 = {
@@ -235,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 224FCDD31DBA847900753EC1 /* Build configuration list for PBXProject "Nayak_Brijesh_Lab3" */;
+			buildConfigurationList = 224FCDD31DBA847900753EC1 /* Build configuration list for PBXProject "DiceRollGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -248,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				224FCDD71DBA847900753EC1 /* Nayak_Brijesh_Lab3 */,
-				224FCDF01DBA847A00753EC1 /* Nayak_Brijesh_Lab3Tests */,
-				224FCDFB1DBA847A00753EC1 /* Nayak_Brijesh_Lab3UITests */,
+				224FCDD71DBA847900753EC1 /* DiceRollGame */,
+				224FCDF01DBA847A00753EC1 /* DiceRollGameTests */,
+				224FCDFB1DBA847A00753EC1 /* DiceRollGameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,12 +319,12 @@
 /* Begin PBXTargetDependency section */
 		224FCDF31DBA847A00753EC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 224FCDD71DBA847900753EC1 /* Nayak_Brijesh_Lab3 */;
+			target = 224FCDD71DBA847900753EC1 /* DiceRollGame */;
 			targetProxy = 224FCDF21DBA847A00753EC1 /* PBXContainerItemProxy */;
 		};
 		224FCDFE1DBA847A00753EC1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 224FCDD71DBA847900753EC1 /* Nayak_Brijesh_Lab3 */;
+			target = 224FCDD71DBA847900753EC1 /* DiceRollGame */;
 			targetProxy = 224FCDFD1DBA847A00753EC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,10 +443,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QDTEURJ5Z2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nayak_Brijesh_Lab3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "www.cis.temple.edu.Nayak-Brijesh-Lab3";
+				PRODUCT_BUNDLE_IDENTIFIER = www.cis.temple.edu.DiceRollGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -453,10 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QDTEURJ5Z2;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Nayak_Brijesh_Lab3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "www.cis.temple.edu.Nayak-Brijesh-Lab3";
+				PRODUCT_BUNDLE_IDENTIFIER = www.cis.temple.edu.DiceRollGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -469,7 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.cis.temple.edu.Nayak-Brijesh-Lab3Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nayak_Brijesh_Lab3.app/Nayak_Brijesh_Lab3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRollGame.app/DiceRollGame";
 			};
 			name = Debug;
 		};
@@ -481,7 +483,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "www.cis.temple.edu.Nayak-Brijesh-Lab3Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nayak_Brijesh_Lab3.app/Nayak_Brijesh_Lab3";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiceRollGame.app/DiceRollGame";
 			};
 			name = Release;
 		};
@@ -510,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		224FCDD31DBA847900753EC1 /* Build configuration list for PBXProject "Nayak_Brijesh_Lab3" */ = {
+		224FCDD31DBA847900753EC1 /* Build configuration list for PBXProject "DiceRollGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				224FCE031DBA847A00753EC1 /* Debug */,
@@ -519,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		224FCE051DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "Nayak_Brijesh_Lab3" */ = {
+		224FCE051DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "DiceRollGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				224FCE061DBA847A00753EC1 /* Debug */,
@@ -528,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		224FCE081DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "Nayak_Brijesh_Lab3Tests" */ = {
+		224FCE081DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "DiceRollGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				224FCE091DBA847A00753EC1 /* Debug */,
@@ -537,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		224FCE0B1DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "Nayak_Brijesh_Lab3UITests" */ = {
+		224FCE0B1DBA847A00753EC1 /* Build configuration list for PBXNativeTarget "DiceRollGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				224FCE0C1DBA847A00753EC1 /* Debug */,
